@@ -1,0 +1,26 @@
+public class Script : ScriptBase
+{
+    public override async Task<HttpResponseMessage> ExecuteAsync()
+    {
+        var contentAsString = await this.Context.Request.Content.ReadAsStringAsync().ConfigureAwait(false);
+        var contentAsJson = JObject.Parse(contentAsString);
+
+        var first = (string)contentAsJson["String1"];
+        var second = (string)contentAsJson["String2"];
+        var igCase = (bool) contentAsJson["IgnoreCase"];
+
+        bool areEqual;
+        if(igCase)
+        {
+            areEqual = string.Equals(first, second, StringComparison.OrdinalIgnoreCase);
+        }
+        else
+        {
+            areEqual = string.Equals(first, second, StringComparison.Ordinal);
+        }
+
+        HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.OK);
+        response.Content = new StringContent(areEqual.ToString());
+        return response;
+    }
+}
