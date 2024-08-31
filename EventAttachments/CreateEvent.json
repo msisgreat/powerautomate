@@ -1,0 +1,29 @@
+{
+    "subject": "this is event",
+    "body": {
+        "contentType": "HTML",
+        "content": ""
+    },
+    "start": {
+        "dateTime": "2024-08-31T02:00:00.0000000",
+        "timeZone": "UTC"
+    },
+    "end": {
+        "dateTime": "2024-08-31T02:30:00.0000000",
+        "timeZone": "UTC"
+    },
+    "location": {
+        "displayName": "Microsoft Teams Meeting"
+    },
+    "attendees": [
+        {
+            "emailAddress": {
+                "address": "senthamil@msisgreat.dev",
+                "name": "Senthamil"
+            },
+            "type": "required"
+        }
+    ],
+    "allowNewTimeProposals": true,
+    "transactionId": "7E163156-7762-4BEB-A1C6-729EA81755A7"
+}

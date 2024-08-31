@@ -1,0 +1,87 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('eedc145f-9108-4fec-ab3a-befeea3aeba3')/events/$entity",
+  "@odata.etag": "W/\"KfHF4sLxiESAbJjXfSHZyQADbug0uw==\"",
+  "id": "AAMkAGQ2NzM3ZGMwLTU0NGUtNDRmNy1hNzk4LWRkYzgwMzhmMDRjNgBGAAAAAABtrPv1UUczT4GpJAY_sjDbBwAp8cXiwvGIRIBsmNd9IdnJAAAAAAENAAAp8cXiwvGIRIBsmNd9IdnJAANvijfUAAA=",
+  "createdDateTime": "2024-08-31T03:20:24.2702321Z",
+  "lastModifiedDateTime": "2024-08-31T03:20:24.3740938Z",
+  "changeKey": "KfHF4sLxiESAbJjXfSHZyQADbug0uw==",
+  "categories": [],
+  "transactionId": "bc859f21-79a5-491b-8d65-65570159aaed",
+  "originalStartTimeZone": "UTC",
+  "originalEndTimeZone": "UTC",
+  "iCalUId": "040000008200E00074C5B7101A82E00800000000518CEFB754FBDA010000000000000000100000005D3B2F378E0ACF4183230030FAB832F4",
+  "uid": "040000008200E00074C5B7101A82E00800000000518CEFB754FBDA010000000000000000100000005D3B2F378E0ACF4183230030FAB832F4",
+  "reminderMinutesBeforeStart": 15,
+  "isReminderOn": true,
+  "hasAttachments": false,
+  "subject": "This is the content email",
+  "bodyPreview": "",
+  "importance": "normal",
+  "sensitivity": "normal",
+  "isAllDay": false,
+  "isCancelled": false,
+  "isOrganizer": true,
+  "responseRequested": true,
+  "seriesMasterId": null,
+  "showAs": "busy",
+  "type": "singleInstance",
+  "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGQ2NzM3ZGMwLTU0NGUtNDRmNy1hNzk4LWRkYzgwMzhmMDRjNgBGAAAAAABtrPv1UUczT4GpJAY%2BsjDbBwAp8cXiwvGIRIBsmNd9IdnJAAAAAAENAAAp8cXiwvGIRIBsmNd9IdnJAANvijfUAAA%3D&exvsurl=1&path=/calendar/item",
+  "onlineMeetingUrl": null,
+  "isOnlineMeeting": false,
+  "onlineMeetingProvider": "unknown",
+  "allowNewTimeProposals": true,
+  "occurrenceId": null,
+  "isDraft": false,
+  "hideAttendees": false,
+  "responseStatus": {
+    "response": "organizer",
+    "time": "0001-01-01T00:00:00Z"
+  },
+  "body": {
+    "contentType": "html",
+    "content": ""
+  },
+  "start": {
+    "dateTime": "2024-08-31T23:00:00.0000000",
+    "timeZone": "UTC"
+  },
+  "end": {
+    "dateTime": "2024-08-31T23:30:00.0000000",
+    "timeZone": "UTC"
+  },
+  "location": {
+    "displayName": "Microsoft Teams Meeting",
+    "locationType": "default",
+    "uniqueId": "Microsoft Teams Meeting",
+    "uniqueIdType": "private"
+  },
+  "locations": [
+    {
+      "displayName": "Microsoft Teams Meeting",
+      "locationType": "default",
+      "uniqueId": "Microsoft Teams Meeting",
+      "uniqueIdType": "private"
+    }
+  ],
+  "recurrence": null,
+  "attendees": [
+    {
+      "type": "required",
+      "status": {
+        "response": "none",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "emailAddress": {
+        "name": "Sen (MVP)",
+        "address": "senthamil@msisgreat.dev"
+      }
+    }
+  ],
+  "organizer": {
+    "emailAddress": {
+      "name": "Sen (MVP)",
+      "address": "senthamil@msisgreat.dev"
+    }
+  },
+  "onlineMeeting": null
+}
