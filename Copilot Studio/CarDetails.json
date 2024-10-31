@@ -1,0 +1,37 @@
+[
+  {
+    type: "ColumnSet",
+    columns: [
+      {
+        type: "Column",
+        width: 1,
+        items: [
+          {
+            type: "Image",
+            imageSize: "Medium",
+            url: With(
+              { startIndex: Find("http", Topic.CarUrl) },
+              With(
+                { endIndex: IfError(Find(" ", Topic.CarUrl, startIndex), Len(Topic.CarUrl) + 1) },
+                Mid(Topic.CarUrl, startIndex, endIndex - startIndex)
+              )
+            )
+
+          }
+        ]
+      },
+      {
+        type: "Column",
+        width: 1,
+        items: [
+          {
+            type: "TextBlock",
+            wrap: true,
+            size: "small",
+            text: Topic.CarDetail
+          }
+        ]
+      }
+    ]
+  }
+]
